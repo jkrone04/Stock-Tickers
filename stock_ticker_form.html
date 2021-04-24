@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Stock Ticker Query</title>
+</head>
+
+<body>
+	<h2>Enter a stock ticker or a company name to find information.</h2>
+	<form name="ticker_form" method="post" action="http://localhost:8080/query">
+		<p> 
+		<input type="radio"  name="s_or_c" value = "stock_ticker" checked="checked"/>Stock Ticker  
+		<input type="radio"  name='s_or_c' value = 'company_name'/>
+		Company Name
+		</p>
+		<input type="text"  name='input' />
+		<br><br>
+		<input type="submit" value = "Find">
+	</form>
+</body>
+</html>
+
+
