@@ -2,9 +2,9 @@
   "name": "sample",
   "version": "1.0.0",
   "description": "my sample node app",
-  "main": "stock_ticker_query.js",
+  "main": "stock_ticker_populate.js",
   "scripts": {
-  "start": "node stock_ticker_query.js"
+  "start": "node stock_ticker_populate.js"
 },
   "repository": {
   "type": "git",
